@@ -22,9 +22,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="20dp"
-
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/music_note" />
+            app:srcCompat="@drawable/ic_music_note" />
 
     </LinearLayout>
 

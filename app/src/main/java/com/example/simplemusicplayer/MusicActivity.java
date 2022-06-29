@@ -194,4 +194,10 @@ public class MusicActivity extends AppCompatActivity {
         musicBinding.textViewMusicSongName.clearAnimation();
         musicBinding.textViewMusicSongName.startAnimation(anim);
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mediaPlayer.stop();
+    }
 }
